@@ -6,15 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/3f6abe89e2.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav>
+        <div class="menu-item"><span class="fas fa-bars"></span>
+            <div class="dropdown">
+                <div class="nav-items">
+                    <div class="list-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo">This is a responsive website</div>
+        <div class="nav-items">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href='https://contact-vijaynara.vercel.app'>About</a></li>
+            <li><a href="https://easyhotmail.wordpress.com">Blogs</a></li>
+            <li><a href="https://contact-vijaynara.vercel.app/#contact">Contact</a></li>
+        </div>
+        <div class="search-icon"><span class="fas fa-search"></span></div>
+        <div class="cancel-icon"><span class="far fa-window-close"></span></div>
+        <form action="#" class="form-class">
+        <input type="search" class="search-data" placeholder="search" required>
+        <button type="submit" class="fas fa-search"></button>
+    </nav>
     <div id="container">
         <div class="login-form">
             <div class="login">
                 <h3>Login Form</h3>
-            </div>
-            <input type="text" placeholder="Username">
-            <input type="text" placeholder="Password">
+            </div><br>
+            <input type="text" placeholder="Username" class="username-input">
+            <input type="text" placeholder="Password" class="password-input">
             <div class="btn">Login</div>
         </div>
     </div>
