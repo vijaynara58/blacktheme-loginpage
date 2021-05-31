@@ -199,4 +199,5 @@ input:focus,
 .btn:hover {
     box-shadow: 0 0 13px #fff;
     transition: all .3s;
+    color: #ff3d00;
 }
